@@ -20,4 +20,4 @@ Gain threshold > +0.10, Loss threshold < −0.10, Stable −0.10 to +0.10
 Water mapped as NDWI_diff:-
 Gain threshold > +0.15, Loss threshold < −0.15, Stable −0.15 to +0.15.
 Gain threshold values per pixel is denoted as 1, Loss threshold as 2 and Stable threshold as 3.
-b. High-confidence (>0.7): Strong, spatially coherent changes. Medium-confidence (0.4–0.7): Transitional zones. Low-confidence (<0.4): Nise or seasonal variation.
+b. High-confidence (>0.7): Strong, spatially coherent changes. Medium-confidence (0.4–0.7): Transitional zones. Low-confidence (<0.4): Nise or seasonal variation. The confidence values for some classes have been annotated by circles for misclassification due to presence of sediments in water bodies which are reflected in back scatter values. Also, some more fine tuning is required as due to large ROI, the classes were mis classified with high confidence into different other classes as this technique doesn't uses any labelled data as everything needs to be automated and code based rather than manual intervention and everything is dependent on the backscatter values obtained and processed.  
